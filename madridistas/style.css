@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image:url(https://www.bhmpics.com/downloads/light-purple-background/35.abstract-background-white-light-blue-purple-color-gradient-defocused-picture-id1303182525.jpg);
+	background-size:cover;
+	background-position:center;
+	box-sizing: border-box;
+}
+ul{
+	list-style:inline-block
+    background:black;
+}
+ul li{
+	display: inline-block;
+	position:relative;
+}
+ul li a{
+	padding:20px 20px;
+   text-decoration: none;
+   color:white;
+   font-size:30px;
+   position:center;
+   top:60px;
+   font-family: system-ui;
+   height:20px;
+}
+ ul li ul.dropdown li{
+display:block;
+text-align:center;
+ }
+ ul li ul.dropdown{
+	 width:100%;
+	 background:#343434;
+	 position:absolute;
+	 z-index:999;
+	 display:none;
+	 border-radius: 15px;
+	 height:80px;
+ }
+ 
+ ul li a:hover{
+	 background: gold;
+	 border-radius: 15px;
+	 color:black;
+ }
+ 
+	 
+.one{ background-color: black;
+color: white;
+height:190px;
+font-size : 80px;
+text-align: center;
+border-radius: 15px; font-family:impact;
+}
+p{
+margin-top:10px;}
+.p1{ height :80px;
+position: relative;
+top:10px; border-radius: 200px;
+margin-bottom:0px;
+}
+.two{background-color:purple;
+height:10px; position:relative;
+width:100%;
+}
+
+.three{ background-color:black;
+text-align:center;
+height:55px;
+border-radius: 15px;position:relative;
+}
+.base{
+	height:auto;
+	position: relative;
+	width: 90%;
+	left:4.5%;
+	margin:5px;
+}
+.four{background-color: gray;
+color: white;
+height:auto;
+font-size : 20px;
+text-align: center;
+font-family: system-ui;
+position:relative;
+     p{
+      margin-top:10px;
+     }
+     a{ padding:10px 25px;
+	 text-decoration: none;
+	 color:white;
+	 font-size:10px;
+	 position:relative;
+	 font-family: system-ui;
+	 height:20px;}
+	 a:hover{ 
+       background-color:gold;
+       color: black;
+       border-radius: 15px;
+       }
+}
+.p2{ height :80px;
+right: 3px;
+position: relative;
+top:10px; border-radius: 100px;
+}
+#slider {
+overflow: hidden; position: relative;
+ border-radius:15px;
+}
+#slider figure{
+	height:700px;
+	position: relative;
+	width: 400%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;	
+}
+#slider figure img {
+	height:700px;
+	float: left;
+	width: 25%;
+}
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	
+	25% {
+		left: 0%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -100%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -200%;
+	}
+	95% {
+		left: -300%;
+}
+	100% {
+		left: -300%;
+	}
+}
+h1{
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    line-height: 32px;
+	text-align:center-left;
+	padding:10px 20px;
+	margin:20px auto;
+}
+.dFlex{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    &.aic{
+        align-items: center;
+    }
+    &.jcc{
+        justify-content: center;
+    }
+    &.jcsb{
+        justify-content: space-between;
+    }
+    &.fdc{
+        flex-direction: row;
+    }
+}
+
+.dGrid{
+    display: grid;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.mdinfo{
+        width: calc(100% / 3 - 4px);
+        padding: 20px;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+		border-radius:50px;
+		 p{
+             padding:3px 20px;
+             color: #151515;
+             border-radius: 50px;
+             font-weight: 700;
+             display: inline-block;
+	         font-family:"inter",sans-serif;
+			 font-size:15px;
+                   }
+}
+#submenu{
+	top:20px;
+	left:0;
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+	z-index:7;
+}
+li:hover ul#submenu{
+	opacity:1;
+	top:60px;
+	visibility:visible;
+	background-color:black;
+	color:black;
+	border-radius:15%;
+
+     a{
+		 padding:5px 5px;	
+         
+	 }
+}

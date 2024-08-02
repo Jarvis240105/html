@@ -1,0 +1,113 @@
+.one{ background-color: black;
+color: white;
+height:120px;
+font-size : 50px;
+text-align: center;
+border-radius: 15px; font-family: system-ui;
+}
+.p1{ height :80px;
+right: 40px;
+position: relative;
+top:20px; border-radius: 100px;
+}
+.two{background-color:purple;
+height:10px; position:relative;
+bottom:2px; top:1px;
+width:1480px;
+left: 10px;}
+.three{ background-color: black;
+height:800px;
+bottom:20px; top:-50px;
+position:relative;
+border-radius: 15px; background-image: url(https://wallpapercave.com/wp/wp14039975.jpg);
+background-repeat: no-repeat;
+background-size:100% 100%;}
+.four{ background-color:black;
+position:relative;height:55px;
+bottom:2px; top:2px;
+border-radius: 15px;
+}
+a{ padding:20px 20px;
+text-decoration: none;
+color:white;
+font-size:30px;
+position:relative;
+left:360px;
+top: 10px;
+font-family: system-ui;
+height:20px;}
+a:hover{ background-color:gold;
+color: black;
+border-radius: 15px;}
+.container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 100px 50px;
+	padding: 100px 50px;
+	background-color:black;
+}
+.container .card{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 350px;
+	height: 350px;
+	background:yellow;
+	border-radius: 20px;
+	box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+	transition: 0.5s;
+}
+.container .card:hover
+{
+	height: 400px;
+}
+.container .card .imgBx
+{
+	position: absolute;
+	top: 20px;
+	width: 300px;
+	height: 260px;
+	background: #333;
+	border-radius: 12px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.container .card:hover .imgBx
+{
+	top: -100px;
+	scale: 0.75;
+	box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+.container .card:hover .imgBx img
+{position: absolute;
+top: 0;
+left:0;
+width:100%;
+height:100%;
+object-fit: cover;
+}
+.container .card .content
+{
+position: absolute;
+top: 280px;
+width: 290px;
+padding: 0 30px;
+height: 80px;
+overflow: hidden;
+text-align: center;
+transition: 0.5s;
+font-size:21;
+}
+.container .card:hover .content
+{
+	top: 130px;
+	height:250px;
+}
+.container .card .content h3
+{
+	font-weight: 700;
+}

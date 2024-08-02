@@ -1,0 +1,165 @@
+.four{
+ background-color: gold;
+color: black;
+height:9%;
+font-size : 50px;
+text-align: center;
+border-radius: 15px; font-family: impact;
+position:relative;
+text-align:center;
+width:100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image:url(https://www.bhmpics.com/downloads/light-purple-background/35.abstract-background-white-light-blue-purple-color-gradient-defocused-picture-id1303182525.jpg);
+	background-size:cover;
+	background-position:center;
+	box-sizing: border-box;
+}
+ul{
+	list-style:inline-block
+    background:black;
+}
+ul li{
+	display: inline-block;
+	position:relative;
+}
+ul li a{
+	padding:20px 20px;
+   text-decoration: none;
+   color:white;
+   font-size:30px;
+   position:center;
+   top:60px;
+   font-family: system-ui;
+   height:20px;
+}
+ 
+ ul li a:hover{
+	 background: gold;
+	 border-radius: 15px;
+	 color:black;
+ }
+ 
+	 
+.one{ background-color: black;
+color: white;
+height:190px;
+font-size : 80px;
+text-align: center;
+border-radius: 15px; font-family:impact;
+}
+p{
+margin-top:10px;}
+.p1{ height :80px;
+position: relative;
+top:10px; border-radius: 200px;
+margin-bottom:0px;
+}
+.two{background-color:purple;
+height:10px; position:relative;
+width:100%;
+}
+
+.three{ background-color:black;
+text-align:center;
+height:55px;
+border-radius: 15px;position:relative;
+}
+
+.opa{
+	background-color: black;
+	color:white;
+height:14%; width:56%;
+position:relative;
+top:5px;
+left:22%;
+border-radius:15px;
+}
+.first{
+	color:white;
+	font-size:25px;
+	font-family: system-ui;
+	
+}
+.go{
+	background-image:url(https://i.dailymail.co.uk/1/2018/10/01/09/4661022-0-image-a-7_1538383224645.jpg);
+	height:150%;
+    position:relative;
+    width:100%;
+}
+.six{background-color: gray;
+color: white;
+height:auto;
+font-size : 20px;
+text-align: center;
+font-family: system-ui;
+position:relative;
+bottom:12%;
+    p{
+      margin-top:10px;
+     }
+     a{ padding:10px 25px;
+	 text-decoration: none;
+	 color:white;
+	 font-size:10px;
+	 position:relative;
+	 font-family: system-ui;
+	 height:20px;}
+	 a:hover{ 
+       background-color:gold;
+       color: black;
+       border-radius: 15px;
+       }
+}
+.p2{ height :80px;
+right: 3px;
+position: relative;
+top:10px; border-radius: 100px;
+}
+.hala{
+	position:relative;
+	height:30%;
+	width:25%;
+	bottom:-2%;
+	left:74%;
+}
+.la{
+	position:relative;
+	height:30%;
+	width:25%;
+	top:12%;
+	left:74%;
+}
+.ha{
+	position:relative;
+	height:30%;
+	width:25%;
+	bottom:2%;
+	left:74%;
+}
+#submenu{
+	top:20px;
+	left:0;
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+	z-index:7;
+}
+li:hover ul#submenu{
+	opacity:1;
+	top:60px;
+	visibility:visible;
+	background-color:black;
+	color:black;
+	border-radius:15%;
+
+     a{
+		 padding:5px 5px;	
+         
+	 }
+}

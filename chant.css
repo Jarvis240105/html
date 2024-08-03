@@ -4,7 +4,7 @@ color: black;
 height:9%;
 font-size : 50px;
 text-align: center;
-border-radius: 15px; font-family: impact;
+font-family: impact;
 position:relative;
 text-align:center;
 width:100%;
@@ -41,7 +41,6 @@ ul li a{
  
  ul li a:hover{
 	 background: gold;
-	 border-radius: 15px;
 	 color:black;
  }
  
@@ -51,7 +50,7 @@ color: white;
 height:190px;
 font-size : 80px;
 text-align: center;
-border-radius: 15px; font-family:impact;
+font-family:impact;
 }
 p{
 margin-top:10px;}

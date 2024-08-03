@@ -24,7 +24,6 @@ ul li a{
  
  ul li a:hover{
 	 background: gold;
-	 border-radius: 15px;
 	 color:black;
  }
 .one{ background-color: black;
@@ -32,7 +31,7 @@ color: white;
 height:190px;
 font-size : 80px;
 text-align: center;
-border-radius: 15px; font-family:impact;
+font-family:impact;
 }
 p{
 margin-top:10px;}
@@ -49,7 +48,7 @@ width:100%;
 .three{ background-color:black;
 text-align:center;
 height:55px;
-border-radius: 15px;position:relative;
+position:relative;
 }
 
 #submenu{

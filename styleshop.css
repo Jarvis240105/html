@@ -79,7 +79,7 @@ li:hover ul#submenu{
 	top:1%;
 	width:100%;
 	height:5%;
-	border-radius:10%;
+	
 	background-image:radial-gradient(black 50%,gray);
 	color:white;
 }
@@ -107,7 +107,7 @@ li:hover ul#submenu{
 	background-size:cover;
 	background-position:center;
 	background-repeat:no repeat;
-	border-radius:2%;
+	
 	position :relative;
 	top :1.5%;
 	column-gap:5%;

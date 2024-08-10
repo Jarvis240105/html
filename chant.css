@@ -74,11 +74,11 @@ position:relative;
 .opa{
 	background-color: black;
 	color:white;
-height:14%; width:56%;
+height:14%; width:80%;
 position:relative;
-top:5px;
-left:22%;
-border-radius:15px;
+top:40px;
+left:10%;
+border-radius:0px;
 }
 .first{
 	color:white;

@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image:url(https://www.bhmpics.com/downloads/light-purple-background/35.abstract-background-white-light-blue-purple-color-gradient-defocused-picture-id1303182525.jpg);
+	background-size:cover;
+	background-position:center;
+	box-sizing: border-box;
+}
+ul{
+	list-style:inline-block
+    background:black;
+}
+ul li{
+	display: inline-block;
+	position:relative;
+}
+ul li a{
+	padding:20px 20px;
+   text-decoration: none;
+   color:white;
+   font-size:30px;
+   position:center;
+   top:60px;
+   font-family: system-ui;
+   height:20px;
+}
+ 
+ ul li a:hover{
+	 background: gold;
+	 border-radius: 15px;
+	 color:black;
+ }
+ 
+	 
+.one{ background-color: black;
+color: white;
+height:auto;
+font-size : 80px;
+text-align: center;
+font-family:impact;
+}
+p{
+margin-top:10px;}
+.p1{ height :80px;
+position: relative;
+top:10px; border-radius: 200px;
+margin-bottom:0px;
+}
+.two{background-color:purple;
+height:10px; position:relative;
+width:100%;
+}
+
+.three{ background-color:black;
+text-align:center;
+height:auto;
+min-height:55px;
+display:grid;
+position:relative;
+}
+#submenu{
+	top:20px;
+	left:0;
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+	z-index:7;
+}
+li:hover ul#submenu{
+	opacity:1;
+	top:60px;
+	visibility:visible;
+	background-color:black;
+	color:black;
+	border-radius:15%;
+
+     a{
+		 padding:5px 5px;	
+         
+	 }
+}
+.four{background-color: gray;
+color: white;
+height:auto;
+font-size : 20px;
+text-align: center;
+font-family: system-ui;
+position:relative;
+     p{
+      margin-top:10px;
+     }
+     a{ padding:10px 25px;
+	 text-decoration: none;
+	 color:white;
+	 font-size:10px;
+	 position:relative;
+	 font-family: system-ui;
+	 height:20px;}
+	 a:hover{ 
+       background-color:gold;
+       color: black;
+       border-radius: 15px;
+       }
+}
+.p2{ height :80px;
+right: 3px;
+position: relative;
+top:10px; border-radius: 100px;
+}
+.pricing-table{
+	width:100%;
+	height:auto;
+}
+.pricing-table h1{
+	color:#9b59b6;
+	font-size:20px;
+	padding:5% 0%;
+	text-align: center;
+	}
+.pricing-table h2{
+	color:#9b59b6;
+	font-size:60px;
+	padding:50px 0px;
+	text-align: center;
+	}
+.price-row{
+	width:90%;
+	margin:auto;
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+	grid-gap:25px;
+	padding:0 0 50px 0;
+}
+.price-col{
+	background:#fff;
+	padding:10% 15%;
+	border-radius:10px;
+	color:black;
+	text-align: center;
+}
+.price-col:hover{
+	background:linear-gradient(to bottom,#9575cd,#b39ddb);
+}
+.price-col p{
+	font-size:32px;
+	font-weight:800;
+	text-align: center;
+}
+.price-col h3{
+	font-size:40px;
+	font-weight:800;
+	color:#bdbdbd;
+	margin:0 0 20px 0;
+}
+.price-col h3 span{
+    font-size:25px;
+}
+.price-col ul{
+	text-align:left;
+	margin:10px 0;
+	color:#616161;
+}
+.price-col ul li{
+	margin:2%;
+}
+.price-col ul li:before{
+	content:"\2714";
+	color:#aed581;
+	font-weight:bold;
+	margin-right:3%;
+}
+.price-col button{
+	width:100%;
+	padding:5%;
+	background:linear-gradient(to bottom,#6633FF,#6600CC);
+	color:#fff;
+	font-size:15px;
+	font-family:impact;
+	border-radius:3%;
+	cursor:pointer;
+	transition: background 0.5s;
+}
+.price-col button:hover{
+	background:linear-gradient(to bottom,#0000FF,#0066FF);
+}
+h1 a:hover{
+	color:#0066FF;
+}
+	

@@ -123,10 +123,10 @@ top:10px; border-radius: 100px;
 }
 .hala{
 	position:relative;
-	height:30%;
-	width:25%;
-	bottom:-2%;
-	left:74%;
+	height:28%;
+	width:80%;
+	bottom:0%;
+	left:10%;
 }
 .la{
 	position:relative;
@@ -139,7 +139,7 @@ top:10px; border-radius: 100px;
 	position:relative;
 	height:30%;
 	width:25%;
-	bottom:2%;
+	bottom:15%;
 	left:74%;
 }
 #submenu{

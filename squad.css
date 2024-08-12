@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image:url(https://www.bhmpics.com/downloads/light-purple-background/35.abstract-background-white-light-blue-purple-color-gradient-defocused-picture-id1303182525.jpg);
+	background-size:cover;
+	background-position:center;
+	box-sizing: border-box;
+	min-height:100%;
+	display:flex;
+	flex-direction:column;
+}
+ul{
+	list-style:inline-block
+    background:black;
+}
+ul li{
+	display: inline-block;
+	position:relative;
+}
+ul li a{
+	padding:20px 20px;
+   text-decoration: none;
+   color:white;
+   font-size:30px;
+   position:center;
+   top:10px;
+   font-family: system-ui;
+   height:20px;
+}
+  ul li a:hover{
+	 background: gold;
+	 border-radius: 15px;
+	 color:black;
+ }
+	 
+.one{ background-color: black;
+color: white;
+height:190px;
+font-size : 80px;
+text-align: center;
+font-family:impact;
+}
+p{
+margin-top:10px;}
+.p1{ height :80px;
+position: relative;
+top:10px; border-radius: 200px;
+margin-bottom:0px;
+}
+.two{background-color:purple;
+height:10px; position:relative;
+width:100%;
+}
+
+.three{ background-color:black;
+text-align:center;
+height:auto;
+min-height:55px;
+position:relative;
+display: grid;
+}
+#submenu{
+	top:20px;
+	left:0;
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+	z-index:7;
+}
+li:hover ul#submenu{
+	opacity:1;
+	top:60px;
+	visibility:visible;
+	background-color:black;
+	color:black;
+	border-radius:15%;
+
+     a{
+		 padding:5px 5px;	
+       }
+}
+.sq{
+background-color:#343434;
+color: white;
+height:auto;
+min-height:55px;
+position:relative;
+display: grid;
+font-size : 40px;
+text-align: center;
+font-family:system-ui;
+}
+ h1{
+	color:#9b59b6;
+	font-size:30px;
+	padding:2% 0%;
+	text-align: center;
+	}
+.players{
+	height:auto;
+	min-height:2200px;
+	padding:0 0 50px 0;
+}
+.container{
+	min-height:50px;
+	display:flex;
+	grid-gap:25px;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+.card{
+	width:400px;
+	height: 500px;
+	padding:0 10px 20px 10px;
+	display:flex;
+	align-items:flex-end;
+	background:linear-gradient(to bottom,#f4ecf7,#a569bd,#4a235a);
+	border-radius:5%;
+	font-size:100%;
+}
+h2{
+	color:#fdfefe;
+	font-size:40px;
+	}
+h3{
+	font-size:75px;
+	color:#eaeded ;
+	margin-bottom:0;
+	}
+.no{
+	align-items:bottom;
+	margin-bottom:0;
+	}
+.card img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+	top:0;
+	left:0;
+	transition:0.5s ease-in-out;
+}
+.card img:hover{
+	transform:scale(1.2);
+	border-radius:5%;
+	
+}
+
+.text{
+	height:67px;
+	font-size:100%;
+	position:absolute;
+	color:#fff;
+	opacity:1;
+	z-index:3;
+	display:flex;
+	flex-wrap:wrap;
+	object-fit:cover;
+	cursor:pointer;
+	padding:0 10px 40px 10px;
+   p{
+   font-size:20px;}
+   }
+.four{background-color: gray;
+color: white;
+height:auto;
+font-size : 20px;
+text-align: center;
+font-family: system-ui;
+position:relative;
+margin-top:auto;
+     p{
+      margin-top:10px;
+     }
+     a{ padding:10px 25px;
+	 text-decoration: none;
+	 color:white;
+	 font-size:10px;
+	 position:relative;
+	 font-family: system-ui;
+	 height:20px;}
+	 a:hover{ 
+       background-color:gold;
+       color: black;
+       border-radius: 15px;
+       }
+}
+.p2{ height :80px;
+right: 3px;
+position: relative;
+top:10px; border-radius: 100px;
+}

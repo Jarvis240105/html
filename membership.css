@@ -29,7 +29,7 @@ ul li a{
 }
  
  ul li a:hover{
-	 gold: gold;
+	 color: gold;
 	 border-radius: 15px;
  }
  

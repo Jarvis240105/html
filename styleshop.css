@@ -23,9 +23,8 @@ ul li a{
 }
  
  ul li a:hover{
-	 background: gold;
+	 color: gold;
 	 border-radius: 15px;
-	 color:black;
  }
 .one{ background-color: black;
 color: white;

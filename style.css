@@ -27,24 +27,10 @@ ul li a{
    font-family: system-ui;
    height:20px;
 }
- ul li ul.dropdown li{
-display:block;
-text-align:center;
- }
- ul li ul.dropdown{
-	 width:100%;
-	 background:#343434;
-	 position:absolute;
-	 z-index:999;
-	 display:none;
-	 border-radius: 15px;
-	 height:80px;
- }
- 
+
  ul li a:hover{
-	 background: gold;
 	 border-radius: 15px;
-	 color:black;
+	 color:gold;
  }
  
 	 

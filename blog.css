@@ -149,8 +149,7 @@ font-family: system-ui;
 height:20px;
 }
 a:hover{ 
-background-color:gold;
-color: black;
+color:gold;
 border-radius: 15px;
 }
 .four{

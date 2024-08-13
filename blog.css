@@ -28,7 +28,7 @@ ul li a{
    height:20px;
 }
 ul li a:hover{
-	 background:gold;
+	 color:gold;
 	 border-radius: 15px;
  }
  h1{

@@ -165,3 +165,31 @@ font-size:21;
 {
 	font-weight: 700;
 }
+.four{background-color: gray;
+color: white;
+height:auto;
+font-size : 20px;
+text-align: center;
+font-family: system-ui;
+position:relative;
+     p{
+      margin-top:10px;
+     }
+     a{ padding:10px 25px;
+	 text-decoration: none;
+	 color:white;
+	 font-size:10px;
+	 position:relative;
+	 font-family: system-ui;
+	 height:20px;}
+	 a:hover{ 
+       background-color:gold;
+       color: black;
+       border-radius: 15px;
+       }
+}
+.p2{ height :80px;
+right: 3px;
+position: relative;
+top:10px; border-radius: 100px;
+}

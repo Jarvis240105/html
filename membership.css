@@ -29,9 +29,8 @@ ul li a{
 }
  
  ul li a:hover{
-	 background: gold;
+	 gold: gold;
 	 border-radius: 15px;
-	 color:black;
  }
  
 	 

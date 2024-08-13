@@ -4,10 +4,11 @@
 	box-sizing: border-box;
 }
 body{
-	background-image:url(https://www.bhmpics.com/downloads/light-purple-background/35.abstract-background-white-light-blue-purple-color-gradient-defocused-picture-id1303182525.jpg);
-	background-size:cover;
-	background-position:center;
+	background:linear-gradient(to bottom,#ebf5fb,#d2b4de  );
 	box-sizing: border-box;
+	min-height:100%;
+	display:flex;
+	flex-direction:column;
 }
 ul{
 	list-style:inline-block

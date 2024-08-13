@@ -27,39 +27,11 @@ ul li a{
    font-family: system-ui;
    height:20px;
 }
- ul li ul.dropdown li{
-display:block;
-text-align:center;
- }
- ul li ul.dropdown{
-	 width:100%;
-	 background:#343434;
-	 position:absolute;
-	 z-index:999;
-	 display:none;
-	 border-radius: 15px;
- }
- ul li ul.dropdown a{
-	padding:5px 25px;
-   text-decoration: none;
-   color:white;
-   font-size:22px;
-   position:center;
-   font-family:sans-serif;
-}
- ul li a:hover{
+ul li a:hover{
 	 background:gold;
 	 border-radius: 15px;
  }
- ul li:hover ul.dropdown{
-	 display:block;
- }
- ul li ul.dropdown a:hover{
-	 background:#AA98A9;
-	 border-radius: 15px;
- }
-	 
-h1{
+ h1{
     font-family: "Inter", sans-serif;
     text-transform: capitalize;
     font-size: 16px;
@@ -308,4 +280,24 @@ body{
 	display:flex;
 	flex-direction:column;
 }
+#submenu{
+	top:20px;
+	left:0;
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+	z-index:7;
+}
+li:hover ul#submenu{
+	opacity:1;
+	top:60px;
+	visibility:visible;
+	background-color:black;
+	color:black;
+	border-radius:15%;
 
+     a{
+		 padding:5px 5px;	
+         
+	 }
+}

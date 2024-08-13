@@ -210,3 +210,65 @@ li:hover ul#submenu{
          
 	 }
 }
+.mdinfo1{
+	    
+        width: 100%; 
+        padding: 20px;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+		text-align:center;
+		align-content:center;
+		align-items:right;
+		 p{
+             padding:3px 20px;
+             color: #151515;
+             border-radius: 50px;
+             font-weight: 700;
+             display: inline-block;
+	         font-family:"inter",sans-serif;
+			 font-size:25px;
+                   }
+		img{
+			width:740px;
+			height:320px;
+		}
+}
+button{
+	left:40%;
+	width:20%;
+	padding:15px;
+	background:linear-gradient(to bottom,#6633FF,#6600CC);
+	color:#fff;
+	font-size:15px;
+	font-family:sans-serif;
+	font-weight:700;
+	border-radius:15px;
+	cursor:pointer;
+	transition: background 0.5s;
+	text-align:center;
+      a{
+	  text-decoration:none;
+	  color :#fff;
+	  }
+}
+button:hover{
+	background:linear-gradient(to bottom,#0000FF,#0066FF);
+}
+h4{
+	font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    font-size:50px;
+	text-align:center-left;
+	padding:10px 20px;
+	margin:20px auto;
+	color:#a569bd ;
+}
+.container1{
+	display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+	background:linear-gradient(to bottom,#ebf5fb,#d2b4de);
+}

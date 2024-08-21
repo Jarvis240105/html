@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background:linear-gradient(to bottom,#ebf5fb,#d2b4de  );
+	box-sizing: border-box;
+	min-height:100%;
+	display:flex;
+	flex-direction:column;
+}
+ul{
+	list-style:inline-block
+    background:black;
+}
+ul li{
+	display: inline-block;
+	position:relative;
+}
+ul li a{
+	padding:20px 20px;
+   text-decoration: none;
+   color:white;
+   font-size:30px;
+   position:center;
+   top:60px;
+   font-family: system-ui;
+   height:20px;
+}
+
+ ul li a:hover{
+	 border-radius: 15px;
+	 color:gold;
+ }
+ 
+	 
+.one{ background-color: black;
+color: white;
+height:190px;
+font-size : 80px;
+text-align: center; 
+font-family:impact;
+}
+p{
+margin-top:10px;}
+.p1{ height :80px;
+position: relative;
+top:10px; border-radius: 200px;
+margin-bottom:0px;
+}
+.two{background-color:purple;
+height:10px; position:relative;
+width:100%;
+}
+
+.three{ background-color:black;
+text-align:center;
+height:55px;
+position:relative;
+}
+#submenu{
+	top:20px;
+	left:0;
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+	z-index:7;
+}
+li:hover ul#submenu{
+	opacity:1;
+	top:60px;
+	visibility:visible;
+	background-color:black;
+	color:black;
+	border-radius:15%;
+
+     a{
+		 padding:5px 5px;	
+         
+	 }
+}
+.body{
+	display: flex;
+    flex-direction:row;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+	position:relative;
+	height:auto;
+	background-image:url(https://c4.wallpaperflare.com/wallpaper/148/666/499/santiago-bernabeu-stadium-soccer-real-madrid-spain-wallpaper-preview.jpg);
+	background-size:cover;
+	background-position:center;
+	padding:40px;
+
+}
+.wrapper{
+  width: 420px;
+  background:black;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  
+  margin: 30px 0;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+  color: #fff;
+}
+.input-box i{
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+
+}
+.wrapper .remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-forgot label input{
+  accent-color: #fff;
+  margin-right: 3px;
+
+}
+.remember-forgot a{
+  color: #fff;
+  text-decoration: none;
+
+}
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.wrapper .register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+
+}
+.register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover{
+  text-decoration: underline;
+}
+.four{background-color: gray;
+color: white;
+height:auto;
+font-size : 20px;
+text-align: center;
+font-family: system-ui;
+position:relative;
+     p{
+      margin-top:10px;
+     }
+     a{ padding:10px 25px;
+	 text-decoration: none;
+	 color:white;
+	 font-size:10px;
+	 position:relative;
+	 font-family: system-ui;
+	 height:20px;}
+	 a:hover{ 
+       background-color:gold;
+       color: black;
+       border-radius: 15px;
+       }
+}
+.p2{ height :80px;
+right: 3px;
+position: relative;
+top:10px; border-radius: 100px;
+}

@@ -88,6 +88,8 @@ border-radius:0px;
 }
 .go{
 	background-image:url(https://i.dailymail.co.uk/1/2018/10/01/09/4661022-0-image-a-7_1538383224645.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
 	height:150%;
     position:relative;
     width:100%;

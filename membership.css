@@ -8,7 +8,10 @@ body{
 	background-size:cover;
 	background-position:center;
 	box-sizing: border-box;
-}
+	min-height:100%;
+	display:flex;
+	flex-direction:column;
+     )
 ul{
 	list-style:inline-block
     background:black;
